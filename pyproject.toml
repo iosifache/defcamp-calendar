@@ -29,6 +29,8 @@ packages = [{include = "defcamp-calendar"}]
 [tool.poetry.dependencies]
 python = "^3.11"
 beautifulsoup4 = "^4.12.2"
+ics = "^0.7.2"
+requests = "^2.31.0"
 
 [tool.poetry.scripts]
 defcamp-calendar = "defcamp-calendar.main:main"
